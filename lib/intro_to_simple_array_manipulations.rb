@@ -22,6 +22,6 @@ def using_insert(array,number)
      flat_array = instruments.flatten
    end
    def using_delete_at(array,num)
-    instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-     flat_array = instruments.flatten
+    famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+    deleted_robot = famous_robots.delete_at(2)
    end
