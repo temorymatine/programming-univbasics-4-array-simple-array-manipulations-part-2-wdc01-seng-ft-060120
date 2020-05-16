@@ -13,14 +13,15 @@ def using_insert(array,number)
     haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
     new_array = haircuts.uniq
    end
+ 
    def using_flatten(array)
+    instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+     flat_array = instruments.flatten
+   end
+     def using_delete(array,string)
    instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
     no_offense_steven = instructors.delete("Steven")
    
-   end
-   def using_delete(array,string)
-    instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-     flat_array = instruments.flatten
    end
    def using_delete_at(array,num)
     famous_robots = ["Johnny 5", "R2D2", "Robocop"]
