@@ -21,8 +21,7 @@ def using_insert(array,number)
      def using_delete(array,num)
    instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
    no_offense_steven = instructors.delete( "Steven")
-  puts instructors
-  instructors
+   instructors
    end
    def using_delete_at(array,num)
     famous_robots = ["Johnny 5", "R2D2", "Robocop"]
