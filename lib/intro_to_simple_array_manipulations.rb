@@ -14,6 +14,6 @@ def using_insert(array,number)
     new_array = haircuts.uniq
    end
    def using_flatten(array)
-    haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-    new_array = haircuts.uniq
+    instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+     flat_array = instruments.flatten
    end
